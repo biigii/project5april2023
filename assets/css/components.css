@@ -1,33 +1,47 @@
 header {
   height: 200px;
   background-color: #3d3333;
-  /* margin-bottom: 130px; */
+}
+
+a.button {
+  font-size: 2em;
+  margin: 100px;
+  border: 2px solid;
+  display: block;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+a.button-2 {
+  font-size: 2em;
+  margin: 100px;
+  border: 2px solid;
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+  padding: 30px 100px;
+  display: inline-block;
+}
+
+.button-3 {
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  font-size: 2em;
+  text-align: center;
+  line-height: 100px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.button-3:hover {
+  background-color: #f33;
+  color: #fff
 }
 
 
-
-.box {
-  background-color: rgb(176, 180, 148);
-  width: 500px;
-  height: 500px;
-  padding: 25px;
-  /* margin: 50px; */
-  color: rgb(51, 5, 51);
-  /* border: 10px solid rgb(100, 155, 209);
-  border-radius: 20px; */
-  /* border-bottom: 10px solid #f11;
-  border-left: 20px dashed #0f0; */
-  border: 20px solid;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 200px;
-  /* box-sizing: content-box; */
-  box-sizing: border-box;
-  margin-bottom: 200px;
-}
-
-.box2 {
-  width: 500px;
-  height: 500px;
-  background-color: #4e1111;
-  color: #fff;
-}
