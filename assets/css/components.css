@@ -38,17 +38,5 @@ header {
   border-bottom: 2px solid;
 }
 
-img {
-  width: 250px;
-}
 
-.image-1 {
-  float: right;
-  margin-left: 10px;
-}
-
-.image-2 {
-  float: left;
-  margin-right: 10px;
-}
 
