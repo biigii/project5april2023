@@ -8,8 +8,3 @@
   height: 1000px;   /* don't add height to container */
 }
 
-.column {
-  border: 2px dashed red;
-  width: 50%;
-  display: inline-block;
-}
