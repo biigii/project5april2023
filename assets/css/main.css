@@ -1,5 +1,5 @@
-@import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css';
-@import url('./reset.css');
+/* @import 'https://necolas.github.io/normalize.css/8.0.1/normalize.css'; */
+/* @import url('./reset.css');  */
 @import './global.css';
 @import './layout.css';
 @import url('./components.css');
