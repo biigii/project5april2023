@@ -1,47 +1,40 @@
-header {
+/* header {
+  background-color: #88dbcd;
   height: 200px;
-  background-color: #3d3333;
+  margin-bottom: 200px;
 }
 
-a.button {
-  font-size: 2em;
-  margin: 100px;
-  border: 2px solid;
-  display: block;
-  width: 300px;
-  height: 100px;
-  line-height: 100px;
+footer {
+  background-color: #88dbcd;
+  height: 200px;
+} */
+
+header, 
+footer {
+  background-color: #55e837;
+  height: 200px;
+}
+
+header {
+  margin-bottom: 200px;
+}
+
+.navigation {
+  height: 200px;
+  line-height: 200px;
   text-align: center;
+}
+
+.navigation a {
+  font-size: 1.5em;
   text-decoration: none;
-  color: #000;
   text-transform: capitalize;
+  margin: 0 20px;
+  color: #fff;
 }
 
-a.button-2 {
-  font-size: 2em;
-  margin: 100px;
-  border: 2px solid;
-  text-decoration: none;
-  color: #000;
-  text-transform: capitalize;
-  padding: 30px 100px;
-  display: inline-block;
+.navigation a:hover {
+  color: #263dce;
+  border-bottom: 2px solid;
 }
-
-.button-3 {
-  width: 200px;
-  height: 100px;
-  border: 2px solid;
-  font-size: 2em;
-  text-align: center;
-  line-height: 100px;
-  text-transform: capitalize;
-  cursor: pointer;
-}
-
-.button-3:hover {
-  background-color: #f33;
-  color: #fff
-}
-
 
